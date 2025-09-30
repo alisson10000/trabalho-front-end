@@ -1,35 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap");
 * {
   margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
 }
 .conteudo-geral {
-  border: 1px solid red;
   width: 1440px;
   height: 900px;
   display: flex;
 }
 .bem-vindos {
-  border: 1px solid black;
   width: 720px;
   height: 900px;
-  /* width: 100%; */
-  /* height: 100vh; ocupa toda a altura da tela */
-  display: flex;
-  flex-direction: column;
+  background-image: url(../img/bg.svg);
 
-  /* padding: 2rem; */
-
-  background: linear-gradient(
-    135deg,
-    /* direção do gradiente de cima para baixo */ #2d55fb 0%,
-    /* azul forte no topo */ #007dfa 25%,
-    /* azul intermediário */ #050a24 100% /* azul bem escuro na base */
-  );
-
-  color: #ffffff; /* cor padrão do texto */
-  font-family: "Poppins", sans-serif; /* exemplo de fonte clean */
+  color: #ffffff;
 }
 .conteudo-geral-criar-conta {
-  border: 1px solid green;
   width: 720px;
   height: 900px;
   display: flex;
@@ -37,7 +24,7 @@
   align-items: center;
 }
 .criar-conta {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   width: 400px;
   height: 428px;
 }
@@ -50,24 +37,90 @@
 .paragrafo-bem-vindo {
   width: 568px;
   height: 335px;
-  border: 1px solid black;
-  margin-left: 90px;
+   margin-left: 90px;
   font-size: 56px;
-  font-family: poppins;
+  font-family: "Roboto", sans-serif;
   font-style: italic;
-  font-style: light;
   margin-top: 60%;
-
-
-  
 }
 
-.olho{
+.olho {
+}
+label {
+  margin-top: 20px;
+  display: block;
+}
 
+.senha {
+  display: block;
 }
-label{
-    display: block;
+
+.create {
+  background-color: #1570ef;
 }
-input{
-    display: block;
+
+.continue {
+  background-position: center;
+  background-position: left;
+  background-color: #d1e9ff;
+  width: 200px;
+  height: 40px;
+}
+
+.login {
+  margin-top: 10px;
+  display: inline;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+.criar-conta p {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.input-senha,
+.input-login {
+  border-radius: 10px;
+  height: 48px;
+  width: 400px;
+  margin-top: 5px;
+  display: block;
+  border: 1px solid #cbd5e1; /* cinza claro */
+  border-radius: 8px; /* bordas arredondadas */
+  outline: none;
+}
+.btn-primary,
+.btn-second {
+  background-color: #1677ff; /* azul forte */
+  color: #fff; /* texto branco */
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px; /* cantos arredondados */
+  padding: 14px 24px; /* altura e largura internas */
+  width: 408px; /* ocupa largura total */
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: 20px;
+}
+
+.btn-primary:hover {
+  background-color: #d1e9ff; /* azul mais escuro no hover */
+}
+
+.btn-second {
+  background-color: #e3f0fc;
+  color: #1677ff;
+}
+
+.criar-conta span {
+  margin-top: 20px;
+  display: inline-block;
+  margin-left: 25%;
+}
+.criar-conta a {
+  color: #98a2b3;
 }
