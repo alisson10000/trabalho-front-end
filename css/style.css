@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+}
+.conteudo-geral {
+  border: 1px solid red;
+  width: 1440px;
+  height: 900px;
+  display: flex;
+}
+.bem-vindos {
+  border: 1px solid black;
+  width: 720px;
+  height: 900px;
+  /* width: 100%; */
+  /* height: 100vh; ocupa toda a altura da tela */
+  display: flex;
+  flex-direction: column;
+
+  /* padding: 2rem; */
+
+  background: linear-gradient(
+    135deg,
+    /* direção do gradiente de cima para baixo */ #2d55fb 0%,
+    /* azul forte no topo */ #007dfa 25%,
+    /* azul intermediário */ #050a24 100% /* azul bem escuro na base */
+  );
+
+  color: #ffffff; /* cor padrão do texto */
+  font-family: "Poppins", sans-serif; /* exemplo de fonte clean */
+}
+.conteudo-geral-criar-conta {
+  border: 1px solid green;
+  width: 720px;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.criar-conta {
+  border: 1px solid blue;
+  width: 400px;
+  height: 428px;
+}
+.logo {
+  width: 98px;
+  height: 28px;
+  margin-left: 90px;
+  margin-top: 70px;
+}
+.paragrafo-bem-vindo {
+  width: 568px;
+  height: 335px;
+  border: 1px solid black;
+  margin-left: 90px;
+  font-size: 56px;
+  font-family: poppins;
+  font-style: italic;
+  font-style: light;
+  margin-top: 60%;
+
+
+  
+}
+
+.olho{
+
+}
+label{
+    display: block;
+}
+input{
+    display: block;
+}
